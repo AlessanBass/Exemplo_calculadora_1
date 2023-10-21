@@ -11,7 +11,7 @@ class Calculadora(){
         return a + b;
     } 
 
-    /*
+        /*
         Multiplicação: Leane
         Divisão: Erika
         Subtração: Brenndol
@@ -20,6 +20,11 @@ class Calculadora(){
    int divisao(int _a, int _b){
         return a / b;
    }
+
+   int sub(int _a, int _b) {
+        return a - b;
+    }
+
 };
 
 
