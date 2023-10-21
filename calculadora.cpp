@@ -17,13 +17,11 @@ class Calculadora(){
         Subtração: Brenndol
     */
    
-   int a, b;
-
    int divisao(int _a, int _b){
         return a / b;
    }
 };
-};
+
 
 int main (){
     Calculadora p;
