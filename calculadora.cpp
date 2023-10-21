@@ -14,6 +14,7 @@ class Calculadora(){
 };
 
 int main (){
+    Calculadora p;
 
     return 0;
 }
