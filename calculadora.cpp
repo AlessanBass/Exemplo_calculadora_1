@@ -38,6 +38,6 @@ int main (){
     cout << "soma: " << p.soma(10,10) << endl;
     cout << "subtracao: " << p.sub(20,10) << endl;
     cout << "divisao: " << p.divisao(10,10) << endl;
-
+    cout << "multiplicacao: " << p.multiplicacao (10,15);
     return 0;
 }
