@@ -11,6 +11,10 @@ class Calculadora(){
         return a + b;
     } 
 
+    int sub(int _a, int _b) {
+        return a - b;
+    }
+
 };
 
 int main (){
