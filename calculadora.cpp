@@ -2,13 +2,13 @@
 
 using namespace std;
 
-class Calculadora(){
+class Calculadora{
 
     public:
-    int a, b;
+    //int a, b;
 
     int soma(int _a, int _b){
-        return a + b;
+        return _a + _b;
     } 
 
         /*
@@ -18,11 +18,11 @@ class Calculadora(){
     */
    
    int divisao(int _a, int _b){
-        return a / b;
+        return _a / _b;
    }
 
    int sub(int _a, int _b) {
-        return a - b;
+        return _a - _b;
     }
 
 };
@@ -30,6 +30,10 @@ class Calculadora(){
 
 int main (){
     Calculadora p;
+
+    cout << "soma: " << p.soma(10,10) << endl;
+    cout << "subtracao: " << p.sub(20,10) << endl;
+    cout << "divisao: " << p.divisao(10,10) << endl;
 
     return 0;
 }
