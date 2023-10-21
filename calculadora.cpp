@@ -24,8 +24,10 @@ class Calculadora{
    int sub(int _a, int _b) {
         return _a - _b;
     }
+
     int multiplicacao(int _a, int _b) {
         return _a * _b;
+    }
 
 };
 
